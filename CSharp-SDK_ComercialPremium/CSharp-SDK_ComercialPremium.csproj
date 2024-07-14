@@ -44,7 +44,6 @@
     <Compile Include="aConstantes.cs" />
     <Compile Include="bEstructuras.cs" />
     <Compile Include="cComercialSdk.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
