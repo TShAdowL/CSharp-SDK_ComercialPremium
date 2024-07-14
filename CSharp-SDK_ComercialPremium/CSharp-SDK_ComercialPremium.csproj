@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aConstantes.cs" />
+    <Compile Include="bEstructuras.cs" />
+    <Compile Include="cComercialSdk.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

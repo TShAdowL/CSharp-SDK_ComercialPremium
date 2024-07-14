@@ -1,5 +1,5 @@
 ﻿namespace CSharp_SDK_ComercialPremium {
-    public static class Constantes {
+    public static class aConstantes {
         public const int kLogitudLugarExpedicion = 401;
         public const int kLongAbreviatura = 4;
         public const int kLongCadOrigComplSAT = 501;

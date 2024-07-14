@@ -5,52 +5,52 @@ namespace CSharp_SDK_ComercialPremium {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tCaracteristicas {
         public double aUnidades;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aValorCaracteristica1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aValorCaracteristica2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aValorCaracteristica3;
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tCteProv {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoCliente;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cRazonSocial;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaAlta;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongRFC)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongRFC)]
         public string cRFC;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCURP)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCURP)]
         public string cCURP;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDenComercial)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDenComercial)]
         public string cDenComercial;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongRepLegal)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongRepLegal)]
         public string cRepLegal;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreMoneda;
         public int cListaPreciosCliente;
         public double cDescuentoMovto;
         public int cBanVentaCredito;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente4;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente5;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionCliente6;
         public int cTipoCliente;
         public int cEstatus;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaBaja;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaUltimaRevision;
         public double cLimiteCreditoCliente;
         public int cDiasCreditoCliente;
@@ -60,16 +60,16 @@ namespace CSharp_SDK_ComercialPremium {
         public double cInteresMoratorio;
         public int cDiaPago;
         public int cDiasRevision;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDesCorta)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDesCorta)]
         public string cMensajeria;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cCuentaMensajeria;
         public int cDiasEmbarqueCliente;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoAlmacen;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoAgenteVenta;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoAgenteCobro;
         public int cRestriccionAgente;
         public double cImpuesto1;
@@ -77,17 +77,17 @@ namespace CSharp_SDK_ComercialPremium {
         public double cImpuesto3;
         public double cRetencionCliente1;
         public double cRetencionCliente2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor4;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor5;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacionProveedor6;
         public double cLimiteCreditoProveedor;
         public int cDiasCreditoProveedor;
@@ -99,11 +99,11 @@ namespace CSharp_SDK_ComercialPremium {
         public double cRetencionProveedor1;
         public double cRetencionProveedor2;
         public int cBanInteresMoratorio;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra3;
         public double cImporteExtra1;
         public double cImporteExtra2;
@@ -113,39 +113,39 @@ namespace CSharp_SDK_ComercialPremium {
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tDireccion {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodCteProv;
         public int cTipoCatalogo;
         public int cTipoDireccion;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cNombreCalle;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNumeroExtInt)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNumeroExtInt)]
         public string cNumeroExterior;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNumeroExtInt)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNumeroExtInt)]
         public string cNumeroInterior;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cColonia;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigoPostal)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigoPostal)]
         public string cCodigoPostal;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTelefono)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTelefono)]
         public string cTelefono1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTelefono)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTelefono)]
         public string cTelefono2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTelefono)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTelefono)]
         public string cTelefono3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTelefono)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTelefono)]
         public string cTelefono4;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongEmailWeb)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongEmailWeb)]
         public string cEmail;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongEmailWeb)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongEmailWeb)]
         public string cDireccionWeb;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cCiudad;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cEstado;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cPais;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cTextoExtra;
     }
 
@@ -158,17 +158,17 @@ namespace CSharp_SDK_ComercialPremium {
         public double aDescuentoDoc1;
         public double aDescuentoDoc2;
         public int aSistemaOrigen;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodConcepto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongSerie)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongSerie)]
         public string aSerie;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string aFecha;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodigoCteProv;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodigoAgente;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongReferencia)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongReferencia)]
         public string aReferencia;
         public int aAfecta;
         public double aGasto1;
@@ -178,17 +178,17 @@ namespace CSharp_SDK_ComercialPremium {
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tLlaveAper {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodCaja;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string aFechaApe;
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tLlaveDoc {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodConcepto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongSerie)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongSerie)]
         public string aSerie;
         public double aFolio;
     }
@@ -199,13 +199,13 @@ namespace CSharp_SDK_ComercialPremium {
         public double aUnidades;
         public double aPrecio;
         public double aCosto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodProdSer;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodAlmacen;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongReferencia)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongReferencia)]
         public string aReferencia;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodClasificacion;
     }
 
@@ -225,35 +225,35 @@ namespace CSharp_SDK_ComercialPremium {
         public double aImporteDescto4;
         public double aPorcDescto5;
         public double aImporteDescto5;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodProdSer;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodAlmacen;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongReferencia)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongReferencia)]
         public string aReferencia;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodClasificacion;
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tProducto {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoProducto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreProducto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombreProducto)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombreProducto)]
         public string cDescripcionProducto;
         public int cTipoProducto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaAltaProducto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaBaja;
         public int cStatusProducto;
         public int cControlExistencia;
         public int cMetodoCosteo;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoUnidadBase;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string cCodigoUnidadNoConvertible;
         public double cPrecio1;
         public double cPrecio2;
@@ -270,31 +270,31 @@ namespace CSharp_SDK_ComercialPremium {
         public double cImpuesto3;
         public double cRetencion1;
         public double cRetencion2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreCaracteristica1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreCaracteristica2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreCaracteristica3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion4;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion5;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion6;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra1;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra2;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongTextoExtra)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongTextoExtra)]
         public string cTextoExtra3;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string cFechaExtra;
         public double cImporteExtra1;
         public double cImporteExtra2;
@@ -306,19 +306,19 @@ namespace CSharp_SDK_ComercialPremium {
     public struct tSeriesCapas {
         public double aUnidades;
         public double aTipoCambio;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aSeries;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aPedimento;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aAgencia;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string aFechaPedimento;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string aNumeroLote;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string aFechaFabricacion;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongFecha)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongFecha)]
         public string aFechaCaducidad;
     }
 
@@ -330,11 +330,11 @@ namespace CSharp_SDK_ComercialPremium {
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct tUnidad {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongNombre)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongNombre)]
         public string cNombreUnidad;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongAbreviatura)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongAbreviatura)]
         public string cAbreviatura;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongAbreviatura)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongAbreviatura)]
         public string cDespliegue;
     }
 
@@ -342,17 +342,17 @@ namespace CSharp_SDK_ComercialPremium {
     public struct tValorClasificacion {
         public int cClasificacionDe;
         public int cNumClasificacion;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodValorClasif)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodValorClasif)]
         public string cCodigoValorClasificacion;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongDescripcion)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongDescripcion)]
         public string cValorClasificacion;
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
     public struct RegLlaveDOC {
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongCodigo)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongCodigo)]
         public string aCodConcepto;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = Constantes.kLongSerie)]
+        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = aConstantes.kLongSerie)]
         public string aSerie;
         public string folio;
     }
